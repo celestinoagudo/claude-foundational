@@ -24,3 +24,41 @@ The API Response
   - Stop Reason - Why generation ended
 
 System prompts are a powerful way to customize how Claude responds to user input. Instead of getting generic answers, you can shape Claude's tone, style, and approach to match your specific use case.
+
+How Claude Generates Text?
+Before diving into temperature, it helps to understand Claude's text generation process. When you send Claude a prompt like "What do you think?", it goes through three key steps:
+- Tokenization - Breaking your input into smaller chunks
+- Prediction - Calculating probabilities for possible next words
+- Sampling - Choosing a token based on those probabilities
+
+What Temperature Does? Temperature is a decimal value between 0 and 1 that directly influences these selection probabilities. It's like adjusting the "creativity dial" on Claude's responses. At low temperatures (near 0), Claude becomes very deterministic - it almost always picks the highest probability token. At high temperatures (near 1), Claude distributes probability more evenly across options, leading to more varied and creative outputs.
+
+Choosing the Right Temperature
+- Different tasks call for different temperature ranges:
+  - Low Temperature (0.0 - 0.3)
+    - Factual responses
+    - Coding assistance
+    - Data extraction
+    - Content moderation
+  - Medium Temperature (0.4 - 0.7)
+    - Summarization
+    - Educational content
+    - Problem-solving
+    - Creative writing with constraints
+  - High Temperature (0.8 - 1.0)
+   - Brainstorming
+   - Creative writing
+   - Marketing content
+   - Joke generation
+- Remember that temperature doesn't guarantee different outputs - it just changes the probability of getting them. Even at high temperatures, Claude might occasionally produce similar responses. The key is matching your temperature choice to your specific use case:
+
+How Streaming Works? With streaming enabled, Claude immediately sends back an initial response indicating it has received your request and is starting to generate text. Then you receive a series of events, each containing a small piece of the overall response.
+
+Understanding Stream Events
+When you enable streaming, Claude sends back several types of events:
+- MessageStart - A new message is being sent
+- ContentBlockStart - Start of a new block containing text, tool use, or other content
+- ContentBlockDelta - Chunks of the actual generated text
+- ContentBlockStop - The current content block has been completed
+- MessageDelta - The current message is complete
+- MessageStop - End of information about the current message
