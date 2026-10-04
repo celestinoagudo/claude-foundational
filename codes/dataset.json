@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for bucket name and log level",
+    "format": "json",
+    "solution_criteria": "Valid JSON with Lambda runtime, S3 event trigger configuration, and environment variables for bucket name and log level specified"
+  },
+  {
+    "task": "Write a Python function that extracts the AWS region and service name from an ARN string (e.g., 'arn:aws:s3:::my-bucket')",
+    "format": "python",
+    "solution_criteria": "Function correctly parses ARN format and returns a dictionary or tuple with region and service name, handles edge cases like S3 ARNs without regions"
+  },
+  {
+    "task": "Create a regex pattern that matches valid AWS IAM role names (alphanumeric, hyphens, underscores, 1-64 characters, must start with letter or number)",
+    "format": "regex",
+    "solution_criteria": "Regex correctly validates IAM role naming conventions, rejects invalid names, and enforces the 1-64 character length requirement"
+  }
+]
