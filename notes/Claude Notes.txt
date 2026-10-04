@@ -76,3 +76,22 @@ Types of Graders
 - Code graders - Programmatically evaluate outputs using custom logic
 - Model graders - Use another AI model to assess the quality
 - Human graders - Have people manually review and score outputs
+
+Prompt Engineering
+  Two Types of Guidelines
+  Output Quality Guidelines
+    The first type focuses on listing qualities that your output should have. These guidelines help you control:
+      Length of the response
+      Structure and format
+      Specific attributes or elements to include
+      Tone or style requirements
+  Process Steps
+    The second type provides specific steps for Claude to follow. This approach is particularly useful when you want Claude to think through a problem systematically or consider multiple perspectives before arriving at a final answer.
+  
+  When to Use Each Approach
+    Always Use Output Guidelines - You should include quality guidelines in almost every prompt you write. They're your safety net for getting consistent, useful results.
+    Use Process Steps For Complex Problems - Add step-by-step instructions when you're dealing with:
+      - Troubleshooting complex problems
+      - Decision-making scenarios
+      - Critical thinking tasks
+      - Any situation where you want Claude to consider multiple angles

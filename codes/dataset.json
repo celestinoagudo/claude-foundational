@@ -1,17 +1,50 @@
 [
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for bucket name and log level",
-    "format": "json",
-    "solution_criteria": "Valid JSON with Lambda runtime, S3 event trigger configuration, and environment variables for bucket name and log level specified"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "70 kg",
+      "goal": "Marathon training with carbohydrate loading and meal timing around a 2-hour morning run",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals strategically timed around the training session",
+      "Total daily caloric intake supports high-endurance training (approximately 3000-3500 calories)",
+      "Carbohydrate-rich meals comprise 55-65% of total calories with emphasis on pre and post-run timing",
+      "Plan is presented in compact, easy-to-read format covering one full day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, focusing on timing of meals around training sessions"
   },
   {
-    "task": "Write a Python function that extracts the AWS region and service name from an ARN string (e.g., 'arn:aws:s3:::my-bucket')",
-    "format": "python",
-    "solution_criteria": "Function correctly parses ARN format and returns a dictionary or tuple with region and service name, handles edge cases like S3 ARNs without regions"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle recovery and strength gains with emphasis on pre and post-workout nutrition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes at least 4 meals/snacks with pre-workout and post-workout nutrition windows clearly identified",
+      "Daily protein intake meets or exceeds 1.6g per kg of body weight (136g minimum)",
+      "Includes specific food items and approximate portions for each meal",
+      "Compact format fitting on a single page or brief document"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) with specific protein requirements and muscle recovery priorities, including pre and post-workout nutrition windows"
   },
   {
-    "task": "Create a regex pattern that matches valid AWS IAM role names (alphanumeric, hyphens, underscores, 1-64 characters, must start with letter or number)",
-    "format": "regex",
-    "solution_criteria": "Regex correctly validates IAM role naming conventions, rejects invalid names, and enforces the 1-64 character length requirement"
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "High-intensity swimming training with optimal performance and recovery",
+      "restrictions": "Vegetarian, no fish or seafood"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals and includes hydration strategy appropriate for swimmer training",
+      "All meals are vegetarian with no fish, seafood, or meat products",
+      "Plan includes adequate carbohydrates and protein to support high-intensity swimming and recovery",
+      "Format is compact and concise (suitable for single day reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) with dietary restrictions (vegetarian) and hydration-focused planning, balancing performance nutrition with ethical food choices"
   }
 ]
