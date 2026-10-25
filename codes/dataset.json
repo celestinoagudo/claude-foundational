@@ -1,50 +1,50 @@
 [
   {
     "prompt_inputs": {
-      "height": "180 cm",
-      "weight": "70 kg",
-      "goal": "Marathon training with carbohydrate loading and meal timing around a 2-hour morning run",
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake and optimized pre/post-workout nutrition timing",
       "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan includes 4-5 meals strategically timed around the training session",
-      "Total daily caloric intake supports high-endurance training (approximately 3000-3500 calories)",
-      "Carbohydrate-rich meals comprise 55-65% of total calories with emphasis on pre and post-run timing",
-      "Plan is presented in compact, easy-to-read format covering one full day"
+      "Meal plan covers full day with breakfast, lunch, dinner, and snacks",
+      "Includes pre-workout and post-workout nutrition strategically timed around training",
+      "Emphasizes high carbohydrate content appropriate for endurance athlete (approximately 8-10g carbs per kg body weight)",
+      "Plan is compact and concise (suitable for quick reference)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, focusing on timing of meals around training sessions"
+    "scenario": "Testing with an elite endurance athlete (marathon runner) requiring high carbohydrate intake and specific pre/post-workout nutrition timing"
   },
   {
     "prompt_inputs": {
       "height": "180 cm",
       "weight": "85 kg",
-      "goal": "Muscle recovery and strength gains with emphasis on pre and post-workout nutrition",
+      "goal": "Build muscle and increase strength for weightlifting competition",
       "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan includes at least 4 meals/snacks with pre-workout and post-workout nutrition windows clearly identified",
-      "Daily protein intake meets or exceeds 1.6g per kg of body weight (136g minimum)",
-      "Includes specific food items and approximate portions for each meal",
-      "Compact format fitting on a single page or brief document"
+      "Meal plan includes 4-5 meals distributed throughout the day with protein at each meal (minimum 30g per meal)",
+      "Pre- and post-training meals are strategically timed to support performance and recovery",
+      "Total daily calories create a moderate surplus appropriate for muscle building (approximately 500+ calorie surplus)",
+      "Plan is presented in compact, easy-to-follow format with clear meal times and portion sizes"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a strength-focused athlete (weightlifter) with specific protein requirements and muscle recovery priorities, including pre and post-workout nutrition windows"
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution, caloric surplus, and meal timing around training sessions"
   },
   {
     "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "72 kg",
-      "goal": "High-intensity swimming training with optimal performance and recovery",
-      "restrictions": "Vegetarian, no fish or seafood"
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "Optimize performance and recovery for a soccer match with moderate-to-high intensity training session",
+      "restrictions": "Vegetarian, no nuts"
     },
     "solution_criteria": [
-      "Meal plan covers all 3 meals and includes hydration strategy appropriate for swimmer training",
-      "All meals are vegetarian with no fish, seafood, or meat products",
-      "Plan includes adequate carbohydrates and protein to support high-intensity swimming and recovery",
-      "Format is compact and concise (suitable for single day reference)"
+      "Meal plan covers all 3 meals plus pre/post-training snacks with appropriate timing",
+      "Includes hydration strategy with specific fluid recommendations",
+      "Provides quick energy options suitable for soccer training demands",
+      "Respects vegetarian and nut-free restrictions throughout all meals"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a sport-specific athlete (swimmer) with dietary restrictions (vegetarian) and hydration-focused planning, balancing performance nutrition with ethical food choices"
+    "scenario": "Testing with a diverse sport scenario (soccer player) balancing moderate intensity with recovery needs, including hydration strategies and quick energy options"
   }
 ]
